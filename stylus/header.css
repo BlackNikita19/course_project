@@ -1,0 +1,66 @@
+.header {
+  width: 1440px;
+  height: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.logo {
+  width: 255px;
+  height: 61px;
+  margin-left: 119px;
+  background: url("../svgicons/header/icon_fox_digital.png");
+  background-size: 100% 100%;
+}
+.logo:hover {
+  background: url("../svgicons/header/icon_fox_digital_hover.png");
+  background-size: 100% 100%;
+}
+.navbar {
+  width: 541px;
+  height: 60px;
+  margin-right: 118px;
+  margin-top: 5px;
+}
+.navbar__nav-links {
+  display: flex;
+  width: 100%;
+  list-style: none;
+  align-items: center;
+  padding: 0px;
+  gap: 20px;
+  justify-content: space-between;
+}
+.navbar__nav-links>li {
+  display: inline-block;
+  font-size: 18px;
+  color: #787878;
+  font-family: 'Raleway';
+}
+.navbar__nav-links>li>a:visited {
+  color: #787878;
+  text-decoration: none;
+}
+.navbar__nav-links>li>a:link {
+  color: #787878;
+  text-decoration: none;
+}
+.navbar__nav-links>li>a:hover {
+  color: #f00;
+  font-size: 18px;
+  font-weight: bold;
+}
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.burger>span {
+  width: 25px;
+  height: 3px;
+  background: #fff;
+  display: block;
+}

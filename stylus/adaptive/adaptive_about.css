@@ -1,0 +1,226 @@
+@import "../about.css";
+@media (min-width: 1441px) and (max-width: 1920px) {
+  .about {
+    width: auto;
+    height: auto;
+  }
+  .about__header {
+    gap: 2%;
+    height: auto;
+    padding-top: 90px;
+  }
+  .about__Rectangle {
+    width: 50%;
+    height: 460px;
+    margin: 0px;
+  }
+  .about__content {
+    height: auto;
+    margin: 0px;
+  }
+  .about__content>h2 {
+    font-size: 3em;
+    margin-bottom: 40px;
+  }
+  .about__content>p {
+    font-size: 24px;
+  }
+  .about__footer {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 60px;
+  }
+  .about__footer>div {
+    width: 450px;
+    height: 330px;
+  }
+  .about__footer-warranty {
+    margin-left: 0px;
+  }
+  .about__footer-reliability {
+    margin-left: 0px;
+  }
+  .about__footer-headings {
+    width: 300px;
+    font-size: 26px;
+  }
+  .about__footer-text {
+    font-size: 23px;
+  }
+}
+@media (min-width: 1155px) and (max-width: 1439px) {
+  .about {
+    width: auto;
+    height: auto;
+    padding: 0px;
+  }
+  .about__header {
+    gap: 5%;
+    height: auto;
+    padding-top: 90px;
+  }
+  .about__Rectangle {
+    width: 60%;
+    height: 400px;
+    margin: 0px;
+  }
+  .about__content {
+    height: auto;
+    width: 60%;
+    margin: 0px;
+  }
+  .about__content>h2 {
+    font-size: 3em;
+    margin-bottom: 40px;
+  }
+  .about__content>p {
+    font-size: 16px;
+  }
+  .about__footer {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+  .about__footer-warranty {
+    margin-left: 0px;
+  }
+}
+@media (min-width: 801px) and (max-width: 1154px) {
+  .about {
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .about__header {
+    gap: 5%;
+    height: auto;
+    padding-top: 60px;
+  }
+  .about__Rectangle {
+    height: 350px;
+    margin: 0px;
+  }
+  .about__content {
+    height: auto;
+    margin: 0px;
+  }
+  .about__content>h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    margin-top: 15px;
+  }
+  .about__content>p {
+    font-size: 0.7em;
+  }
+  .about__footer {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  .about__footer-clints>img {
+    width: 180px;
+    height: 120px;
+  }
+  .about__footer-warranty {
+    margin-left: 0px;
+  }
+  .about__footer-reliability {
+    margin-left: 0px;
+  }
+}
+@media (min-width: 320px) and (max-width: 800px) {
+  .about {
+    width: auto;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+  }
+  .about__header {
+    gap: 0%;
+    flex-wrap: wrap;
+    height: auto;
+    padding-top: 0px;
+    justify-content: center;
+  }
+  .about__Rectangle {
+    display: none;
+  }
+  .about__content {
+    height: auto;
+    margin: 0px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .about__content>h2 {
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .about__content>p {
+    font-size: 14px;
+    line-height: 120%;
+  }
+  .about__footer {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    gap: 5px;
+    font-size: 16px;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .about__footer-projects {
+    width: 320px;
+    height: auto;
+    margin-bottom: 25px;
+  }
+  .about__footer-clints {
+    width: 320px;
+    height: auto;
+    margin-bottom: 25px;
+  }
+  .about__footer-clints>img {
+    width: 150px;
+    height: 100px;
+  }
+  .about__footer-trust {
+    width: 320px;
+    margin-bottom: 25px;
+    height: auto;
+  }
+  .about__footer-warranty {
+    width: 320px;
+    margin-left: 0px;
+    margin-bottom: 25px;
+    height: auto;
+  }
+  .about__footer-reliability {
+    width: 320px;
+    margin-bottom: 25px;
+    height: auto;
+    margin-left: 0px;
+  }
+  .about__headings {
+    font-size: 20px;
+  }
+  .about__img {
+    width: 140px;
+    height: 100px;
+  }
+  .about__text {
+    height: auto;
+    font-size: 14px;
+  }
+}

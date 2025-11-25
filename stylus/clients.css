@@ -1,0 +1,145 @@
+@import "../fonts/font.css";
+.clients {
+  width: 1440px;
+  height: 1062px;
+  background: url("../img/our-clients/blackground-our-clients.png");
+  background-size: cover;
+}
+.clients__heading {
+  width: 600px;
+  height: 100px;
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Montserrat';
+  margin: 37px 0px 0px 420px;
+}
+.clients__heading>h2 {
+  color: #f3383c;
+  font-size: 60px;
+  font-family: 'Century-Gothic';
+  font-weight: bold;
+  margin: 3px 0px 0px 0px;
+}
+.clients__content {
+  width: 1200px;
+  height: 800px;
+  margin: 42px 120px 67px 120px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 370px 43px 370px 43px 370px;
+  grid-template-columns: repeat(3, 370px);
+  -ms-grid-rows: 270px 10px 270px 10px 270px;
+  grid-template-rows: repeat(3, 270px);
+  -moz-column-gap: 43px;
+       column-gap: 43px;
+  row-gap: 10px;
+}
+.clients__content > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+.clients__content > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+.clients__content > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+.clients__content > *:nth-child(4) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+}
+.clients__content > *:nth-child(5) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+}
+.clients__content > *:nth-child(6) {
+  -ms-grid-row: 3;
+  -ms-grid-column: 5;
+}
+.clients__content > *:nth-child(7) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 1;
+}
+.clients__content > *:nth-child(8) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 3;
+}
+.clients__content > *:nth-child(9) {
+  -ms-grid-row: 5;
+  -ms-grid-column: 5;
+}
+.clients__tyres {
+  width: 370px;
+  height: 240px;
+  background-size: 75% 75%;
+  border-radius: 10px;
+  box-shadow: 10px -5px 50px #000;
+  background: url("../img/our-clients/icons__tyres.png") no-repeat center center;
+}
+.clients__huawel {
+  box-shadow: 10px -5px 50px #000;
+  width: 370px;
+  height: 240px;
+  background-size: 75% 75%;
+  border-radius: 10px;
+  background: url("../img/our-clients/icons__huawei.png") no-repeat center center;
+}
+.clients__PlayStation {
+  width: 370px;
+  height: 240px;
+  background-size: 75% 75%;
+  border-radius: 10px;
+  box-shadow: 10px -5px 50px #000;
+  background: url("../img/our-clients/icons__p.png") no-repeat center center;
+}
+.clients__renault {
+  width: 370px;
+  height: 240px;
+  background-size: 75% 75%;
+  border-radius: 10px;
+  background: url("../img/our-clients/icons__renault.png") no-repeat center center;
+}
+.clients__sumsung {
+  width: 370px;
+  height: 240px;
+  background-size: 75% 75%;
+  border-radius: 10px;
+  background: url("../img/our-clients/icons__sumsung.png") no-repeat center center;
+}
+.clients__jacobs {
+  width: 370px;
+  height: 240px;
+  background-size: 75% 75%;
+  border-radius: 10px;
+  background: url("../img/our-clients/icons__jacobs.png") no-repeat center center;
+}
+.clients__hp {
+  width: 370px;
+  height: 240px;
+  background-size: 75% 75%;
+  border-radius: 10px;
+  background: url("../img/our-clients/icons__hp.png") no-repeat center center;
+}
+.clients__volvo {
+  width: 370px;
+  height: 240px;
+  background-size: 75% 75%;
+  border-radius: 10px;
+  background: url("../img/our-clients/icons__volvo.png") no-repeat center center;
+}
+.clients__pantovigar {
+  width: 370px;
+  height: 240px;
+  background-size: 75% 75%;
+  border-radius: 10px;
+  background: url("../img/our-clients/icons__пантовигар.png") no-repeat center center;
+}
+.clients__basement {
+  width: 1440px;
+  height: 65px;
+  margin-top: 70px;
+  background: #fff;
+  border-radius: 10px 0px 0px 0px;
+}
