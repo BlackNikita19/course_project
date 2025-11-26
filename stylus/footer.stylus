@@ -1,0 +1,88 @@
+@import "../fonts/font.css";
+
+.footer 
+    width 1440px
+    height: 489px
+    
+    &__heading
+        width 640px
+        height: 135px
+        margin: 0px 442px
+        font-size 20px
+        color black
+        text-align: center
+        &>h2    
+            font-size: 60px
+            margin: 0px
+            margin-bottom: 20px
+            font-family: 'Century-Gothic'
+            font-weight: bold
+        &>span
+            font-family: 'Montserrat-Regular'
+            margin-left: 5px
+
+    &__form
+        width 1280px
+        height: 90px
+        border-radius: 20px
+        margin:37px 80px 80px 80px
+        display: flex
+        flex-wrap wrap
+        box-shadow: 5px 5px 20px black
+        &>hr
+            width 4px
+            height: 74px
+            margin: 8px 12px 
+            border: 1px #ff383c solid
+            background: #ff383c
+            
+        
+    &__input
+        width 472px
+        height: 100%
+        font-size: 27px
+        font-weight: 700
+        padding-left:170px 
+        border 20px
+        font-weight: bold
+        outline: none
+        border-radius: 15px 0px 0px 15px
+        font-family:'Montserrat' 
+        outline: none
+        
+            
+
+    &__button
+        height: 90px
+        width 301px
+        background:linear-gradient(to left, #f55929, #ec1f3d)
+        color:white
+        font-size:18px
+        display: flex
+        gap:72px
+        font-family: 'Montserrat'
+        font-weight: bold
+        border:1px #ff383c solid
+        border-radius: 20px
+        margin-left: 5px 
+        justify-content: center
+        align-items: center
+        &>img
+            width 23px
+            height: 23px
+        &:hover
+            background:black
+            border:1px black solid
+
+
+
+    &__logo
+        width 254px
+        height: 60px
+        margin 0px 0px 84px 120px
+        background: url('../svgicons/footer/Logo_footer.svg')
+        &:hover
+            background: url('../svgicons/footer/Logo_footer_hover.svg')
+
+
+
