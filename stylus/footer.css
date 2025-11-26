@@ -1,0 +1,86 @@
+@import "../fonts/font.css";
+.footer {
+  width: 1440px;
+  height: 489px;
+}
+.footer__heading {
+  width: 640px;
+  height: 135px;
+  margin: 0px 442px;
+  font-size: 20px;
+  color: #000;
+  text-align: center;
+}
+.footer__heading>h2 {
+  font-size: 60px;
+  margin: 0px;
+  margin-bottom: 20px;
+  font-family: 'Century-Gothic';
+  font-weight: bold;
+}
+.footer__heading>span {
+  font-family: 'Montserrat-Regular';
+  margin-left: 5px;
+}
+.footer__form {
+  width: 1280px;
+  height: auto;
+  border-radius: 20px;
+  margin: 37px 80px 80px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 5px 5px 20px #000;
+}
+.footer__form>hr {
+  width: 4px;
+  height: 74px;
+  margin: 8px 10px;
+  border: 1px #ff383c solid;
+  background: #ff383c;
+}
+.footer__input {
+  width: 302px;
+  height: 90px;
+  font-size: 27px;
+  font-weight: 700;
+  padding-left: 170px;
+  border: 20px;
+  font-weight: bold;
+  outline: none;
+  border-radius: 15px 0px 0px 15px;
+  font-family: 'Montserrat';
+  outline: none;
+}
+.footer__button {
+  height: 92px;
+  width: 302px;
+  background: linear-gradient(to left, #f55929, #ec1f3d);
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  gap: 72px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  border: 1px #ff383c solid;
+  border-radius: 20px;
+  margin-left: 4px;
+  justify-content: center;
+  align-items: center;
+}
+.footer__button>img {
+  width: 23px;
+  height: 23px;
+}
+.footer__button:hover {
+  background: #000;
+  border: 1px #000 solid;
+}
+.footer__logo {
+  width: 254px;
+  height: 60px;
+  margin: 0px 0px 84px 120px;
+  background: url("../svgicons/footer/Logo_footer.svg");
+}
+.footer__logo:hover {
+  background: url("../svgicons/footer/Logo_footer_hover.svg");
+}

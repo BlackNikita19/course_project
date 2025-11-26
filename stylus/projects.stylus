@@ -1,0 +1,115 @@
+@import "../fonts/font.css";
+.projects
+    width 1440px
+    height: 1094px
+    display: flex
+    flex-wrap: wrap
+    background: url('../img/projects/background_projects.png')
+    background-size: cover 
+    font-size:18px
+    color:white
+    margin-top:48px 
+    &__right-side
+        margin-left:150px 
+        width 510px 
+        height: 772px
+        margin-top: 115px
+        font-family: 'Montserrat'
+        font-size:18px
+
+        
+        &>h2
+            font-family: 'Century-Gothic'
+            font-weight: 500
+            font-size: 60px
+            line-height: 100%
+            margin-top: 28px
+            margin-bottom: 71px 
+        &>p
+            line-height: 122%
+            margin: 0px
+        
+    &__left-side
+        height: 1136px
+        width 740px
+        display:flex
+        flex-wrap:wrap
+    
+    &__top-project
+        width:664px
+        height: 366px
+        border-radius: 0px 0px 0px 30px
+        background: url('../img/projects/img-projects_01.png')
+        background-size:cover  
+        position: relative
+        left:116px
+        bottom 35px
+
+    &__average-project
+        width:660px
+        height: 350px
+        border-radius: 30px 
+        position: relative
+        left:58px
+        bottom 22px
+        background: url('../img/projects/img-projects_02.png')
+        background-size:cover 
+
+    &__bottom-project
+        width:657px
+        height: 326px
+        border-radius: 30px 0px
+        background: url('../img/projects/img-projects_03.png')
+        background-size: cover
+        position: relative
+        left:123px
+        bottom 9px
+    
+    &__button
+        width 300px
+        height: 70px
+        background:linear-gradient(to left, #f55929, #ec1f3d)
+        color:white
+        font-size:18px
+        display: flex
+        gap:60px
+        font-family: 'Montserrat-Regular'
+        padding: 25px 0px 21px 28px
+        border-radius: 20px
+        &>img
+            width 20px
+            height: 20px
+
+.form
+    height: 310px
+    width 400px
+    display flex
+    flex-wrap: wrap
+    gap 40px
+    margin-top:94px 
+
+    &__input
+        display: flex;
+        height: 80px
+        flex-direction: column;
+        width: 400px;
+        justify-content: center
+        align-items: center
+        background:white
+        border-radius: 15px
+        padding-left:34px 
+        font-family: 'Montserrat'
+        font-size 18px
+        border none
+        outline: none
+        font-weight: 500
+        margin-top:0px 
+        margin-left: -1px
+        &::placeholder
+            font-weight: 500
+            color: rgb(0, 0, 0)
+
+
+
+    
+    

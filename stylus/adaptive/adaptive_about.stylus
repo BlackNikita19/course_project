@@ -1,0 +1,207 @@
+@import "../about.css"
+@media (min-width 1441px) and (max-width 1920px)
+    .about
+        width auto
+        height: auto
+        &__header
+            gap: 2%
+            height: auto
+            padding-top:90px 
+        &__Rectangle
+            width 50%
+            height: 460px
+            margin: 0px
+        
+        &__content
+            height auto
+            margin: 0px
+            &>h2
+                font-size:3em
+                margin-bottom:40px
+            &>p
+                font-size:24px
+         &__footer
+            width 100%
+            height: auto
+            margin: 0px
+            justify-content: center
+            align-items:center
+            margin-top:60px
+            gap 60px
+            
+            &>div
+                width 450px 
+                height: 330px
+            
+            &-warranty
+                margin-left:0px 
+            
+            &-reliability
+                margin-left:0px 
+            
+            &-headings
+                width: 300px
+                font-size: 26px
+            
+            &-text
+                font-size: 23px
+
+
+@media (min-width 1155px) and (max-width 1439px)
+    .about
+        width auto
+        height: auto
+        padding: 0px
+        &__header
+            gap: 5%
+            height: auto
+            padding-top:90px 
+        
+        &__Rectangle
+            width 60%
+            height: 400px
+            margin: 0px
+
+        &__content
+            height: auto
+            width 60%
+            margin: 0px
+            &>h2
+                font-size:3em
+                margin-bottom:40px
+            &>p
+                font-size:16px
+        &__footer
+            width 100%
+            height: auto
+            margin: 0px
+            justify-content: center
+            align-items:center
+            margin-top:40px
+            margin-bottom 25px 
+
+            &-warranty
+                margin-left:0px 
+
+@media (min-width 801px) and (max-width 1154px)
+    .about
+        width auto
+        height: auto
+        padding-bottom: 20px
+        &__header
+            gap: 5%
+            height: auto
+            padding-top:60px 
+        &__Rectangle
+            height: 350px
+            margin: 0px
+        &__content
+            height: auto
+            margin: 0px
+            &>h2
+                font-size:2.5em
+                margin-bottom:40px
+                margin-top: 15px
+            &>p
+                font-size:0.7em
+        &__footer
+            width 100%
+            height: auto
+            margin: 0px
+            gap 30px
+            justify-content: center
+            align-items:center
+            margin-top:40px
+
+            &-clints
+                &>img
+                    width 180px
+                    height: 120px
+
+            &-warranty
+                margin-left:0px 
+            &-reliability
+                margin-left:0px 
+        
+@media (min-width 320px) and (max-width 800px)
+    .about
+        width auto
+        height: auto
+        padding: 0px
+        margin: 0px
+        &__header
+            gap: 0%
+            flex-wrap: wrap 
+            height: auto
+            padding-top:0px 
+            justify-content: center
+        
+        &__Rectangle
+            display none
+            
+        &__content
+            height auto
+            margin: 0px
+            text-align: center
+            margin-top:20px 
+            &>h2
+                font-size:2em
+                margin-top: 20px
+                margin-bottom:30px
+            &>p
+                font-size:14px
+                line-height:120%
+
+
+        &__footer
+            width 100%
+            height: auto
+            margin: 0px
+            gap 0px
+            font-size: 16px
+            justify-content: center
+            margin-top:20px
+            &-text
+                font-size:16px 
+                height: auto
+        
+        
+            &-projects
+                width 320px
+                height: auto
+                margin-bottom: 25px
+                
+            &-clints
+                width 320px
+                height: auto
+                margin-bottom: 25px
+                &>img
+                    width 150px
+                    height: 100px
+
+            &-trust
+                width 320px
+                margin-bottom: 25px
+                height: auto
+            
+            &-warranty
+                width 320px
+                margin-left: 0px
+                margin-bottom: 25px
+                height: auto
+        
+            &-reliability
+                width 320px
+                margin-bottom: 25px
+                height: auto
+                margin-left:0px 
+    
+        &__headings
+            font-size: 20px
+        
+        &__img
+            width 140px 
+            height: 100px
+        &__text
+            height: auto
+            font-size: 14px
