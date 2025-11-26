@@ -259,7 +259,7 @@
   font-size: 20px;
   text-align: end;
 }
-@keyframes Spiderman {
+@keyframes Spiderman  {
   0% {
     background: url("img/our-services/Spiderman_20%.png");
     background-size: 100% 100%;
