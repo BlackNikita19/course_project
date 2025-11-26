@@ -262,45 +262,45 @@
 }
 @-webkit-keyframes Spiderman {
   0% {
-    background: url("../img/our-services/Spiderman_20%.png");
+    background: url("img/our-services/Spiderman_20%.png");
     background-size: 100% 100%;
   }
   25% {
-    background: url("../img/our-services/Spiderman_40%.png");
+    background: url("img/our-services/Spiderman_40%.png");
     background-size: 100% 100%;
   }
   50% {
-    background: url("../img/our-services/Spiderman_60%.png");
+    background: url("img/our-services/Spiderman_60%.png");
     background-size: 100% 100%;
   }
   75% {
-    background: url("../img/our-services/Spiderman_80%.png");
+    background: url("img/our-services/Spiderman_80%.png");
     background-size: 100% 100%;
   }
   100% {
-    background: url("../img/our-services/Spiderman_100%.png");
+    background: url("img/our-services/Spiderman_100%.png");
     background-size: 100% 100%;
   }
 }
 @keyframes Spiderman {
   0% {
-    background: url("../img/our-services/Spiderman_20%.png");
+    background: url("img/our-services/Spiderman_20%.png");
     background-size: 100% 100%;
   }
   25% {
-    background: url("../img/our-services/Spiderman_40%.png");
+    background: url("img/our-services/Spiderman_40%.png");
     background-size: 100% 100%;
   }
   50% {
-    background: url("../img/our-services/Spiderman_60%.png");
+    background: url("img/our-services/Spiderman_60%.png");
     background-size: 100% 100%;
   }
   75% {
-    background: url("../img/our-services/Spiderman_80%.png");
+    background: url("img/our-services/Spiderman_80%.png");
     background-size: 100% 100%;
   }
   100% {
-    background: url("../img/our-services/Spiderman_100%.png");
+    background: url("img/our-services/Spiderman_100%.png");
     background-size: 100% 100%;
   }
 }
