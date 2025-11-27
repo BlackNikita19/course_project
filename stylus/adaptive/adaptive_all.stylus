@@ -1,8 +1,0 @@
-@import "adaptive_main.css"
-@import "adaptive_header.css"
-@import "adaptive_about.css"
-@import "adaptive_projects.css"
-@import "adaptive_clients.css"
-@import "adaptive_services.css"
-@import "adaptive_footer.css"
-@import "adaptive_404.css";
