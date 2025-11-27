@@ -1,4 +1,4 @@
-@import "../fonts/font.css"
+@import "../fonts/fonts.css"
 
 color-red=#ff383c
 text-content(f=21px,fam= 'Century-Gothic')

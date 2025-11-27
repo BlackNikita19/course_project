@@ -1,4 +1,4 @@
-@import "../fonts/font.css";
+@import "../fonts/fonts.css";
 
 .footer 
     width 1440px

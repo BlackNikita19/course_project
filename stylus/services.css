@@ -1,4 +1,4 @@
-@import "../fonts/font.css";
+@import "../fonts/fonts.css";
 .services {
   width: 1440px;
   height: 1643px;
@@ -73,7 +73,8 @@
   width: 700px;
   height: 400px;
   border-radius: 15px;
-  animation: Spiderman 12s infinite normal;
+  -webkit-animation: Spiderman 12s infinite normal;
+          animation: Spiderman 12s infinite normal;
 }
 .services__content-text {
   width: 548px;
@@ -259,25 +260,47 @@
   font-size: 20px;
   text-align: end;
 }
-@keyframes Spiderman {
+@-webkit-keyframes Spiderman {
   0% {
-    background: url("https://raw.githubusercontent.com/BlackNikita19/course_project/refs/heads/main/img/services/Spiderman_20.png");
+    background: url("../img/services/Spiderman_20%.png");
     background-size: 100% 100%;
   }
   25% {
-    background: url("https://raw.githubusercontent.com/BlackNikita19/course_project/refs/heads/main/img/services/Spiderman_40.png");
+    background: url("../img/services/Spiderman_40%.png");
     background-size: 100% 100%;
   }
   50% {
-    background: url("https://raw.githubusercontent.com/BlackNikita19/course_project/refs/heads/main/img/services/Spiderman_60.png");
+    background: url("../img/services/Spiderman_60%.png");
     background-size: 100% 100%;
   }
   75% {
-    background: url("https://raw.githubusercontent.com/BlackNikita19/course_project/refs/heads/main/img/services/Spiderman_80.png");
+    background: url("../img/services/Spiderman_80%.png");
     background-size: 100% 100%;
   }
   100% {
-    background: url("https://raw.githubusercontent.com/BlackNikita19/course_project/refs/heads/main/img/services/Spiderman_100.png");
+    background: url("../img/services/Spiderman_100%.png");
+    background-size: 100% 100%;
+  }
+}
+@keyframes Spiderman {
+  0% {
+    background: url("../img/services/Spiderman_20%.png");
+    background-size: 100% 100%;
+  }
+  25% {
+    background: url("../img/services/Spiderman_40%.png");
+    background-size: 100% 100%;
+  }
+  50% {
+    background: url("../img/services/Spiderman_60%.png");
+    background-size: 100% 100%;
+  }
+  75% {
+    background: url("../img/services/Spiderman_80%.png");
+    background-size: 100% 100%;
+  }
+  100% {
+    background: url("../img/services/Spiderman_100%.png");
     background-size: 100% 100%;
   }
 }

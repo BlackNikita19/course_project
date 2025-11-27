@@ -145,11 +145,11 @@
             text-align: center
             margin-top:20px 
             &>h2
-                font-size:2em
+                font-size:1.7em
                 margin-top: 20px
                 margin-bottom:30px
             &>p
-                font-size:14px
+                font-size:13px
                 line-height:120%
 
 
