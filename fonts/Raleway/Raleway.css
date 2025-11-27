@@ -2,7 +2,6 @@
   font-family: 'Raleway';
   src: url("Raleway/Raleway.ttf") format(ttf);
   src: url("Raleway/Raleway.woff") format(woff);
-  src: url("Raleway/Raleway.woff2") format(woff2);
   font-display: optional;
 }
 @font-face {
