@@ -1,37 +1,37 @@
 @font-face {
   font-family: 'Raleway';
-  src: url("Raleway/Raleway.ttf") format(ttf);
-  src: url("Raleway/Raleway.woff") format(woff);
-  src: url("Raleway/Raleway.woff2") format(woff2);
+  src: url("fonts/Raleway/Raleway.ttf") format(ttf);
+  src: url("fonts/Raleway/Raleway.woff") format(woff);
+  src: url("fonts/Raleway/Raleway.woff2") format(woff2);
   font-display: optional;
 }
 @font-face {
   font-family: 'Raleway-Regular';
-  src: url("Raleway/Raleway-Regular.ttf") format(ttf);
+  src: url("fonts/Raleway/Raleway-Regular.ttf") format(ttf);
   font-display: optional;
 }
 @font-face {
   font-family: 'Montserrat';
-  src: url("Montserrat/Montserrat.woff") format(woff);
-  src: url("Montserrat/Montserrat.woff2") format(woff2);
+  src: url("fonts/Montserrat/Montserrat.woff") format(woff);
+  src: url("fonts/Montserrat/Montserrat.woff2") format(woff2);
   font-display: optional;
 }
 @font-face {
   font-family: 'Montserrat-Medium';
-  src: url("Montserrat/Montserrat-Medium.woff") format(woff);
-  src: url("Montserrat/Montserrat-Medium.woff2") format(woff2);
+  src: url("fonts/Montserrat/Montserrat-Medium.woff") format(woff);
+  src: url("fonts/Montserrat/Montserrat-Medium.woff2") format(woff2);
   font-display: optional;
 }
 @font-face {
   font-family: 'Montserrat-Regular';
-  src: url("Montserrat/Montserrat-Regular.ttf") format(woff);
-  src: url("Montserrat/Montserrat-Regular.woff") format(woff);
-  src: url("Montserrat/Montserrat-Regular.woff2") format(woff2);
+  src: url("fonts/Montserrat/Montserrat-Regular.ttf") format(woff);
+  src: url("fonts/Montserrat/Montserrat-Regular.woff") format(woff);
+  src: url("fonts/Montserrat/Montserrat-Regular.woff2") format(woff2);
   font-display: optional;
 }
 @font-face {
   font-family: 'Century-Gothic';
-  src: url("CenturyGothic/CenturyGothic.woff") format(woff);
-  src: url("CenturyGothic/CenturyGothic.woff2") format(woff2);
+  src: url("fonts/CenturyGothic/CenturyGothic.woff") format(woff);
+  src: url("fonts/CenturyGothic/CenturyGothic.woff2") format(woff2);
   font-display: optional;
 }
