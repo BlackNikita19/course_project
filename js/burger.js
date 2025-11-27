@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
   if (!burger || !navLinks) return;
 
   // Открытие/закрытие меню
-  burger.addEventListener('click', () => {
+  burger.addEventListener('click', (e) => {
+    e.stopPropagation(); // чтобы не сработал глобальный обработчик
     navLinks.classList.toggle('active');
     burger.classList.toggle('active');
   });
@@ -26,3 +27,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
