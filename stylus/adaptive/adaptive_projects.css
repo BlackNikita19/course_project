@@ -1,0 +1,225 @@
+@import "../projects.css";
+@media (min-width: 1441px) and (max-width: 1920px) {
+  .projects {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    justify-content: space-between;
+  }
+  .projects__right-side {
+    margin-left: 10%;
+    width: 35%;
+    height: 772px;
+    margin-top: 50px;
+  }
+  .projects__right-side>h2 {
+    font-size: 75px;
+  }
+  .projects__right-side>p {
+    font-size: 26px;
+    margin: 0px;
+  }
+  .projects__left-side {
+    width: 650px;
+    height: auto;
+  }
+  .projects__top-project {
+    position: static;
+  }
+  .projects__average-project {
+    left: -80px;
+    margin-top: 50px;
+  }
+  .projects__bottom-project {
+    position: static;
+  }
+}
+@media (min-width: 1155px) and (max-width: 1439px) {
+  .projects {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    justify-content: space-between;
+  }
+  .projects__right-side {
+    margin-left: 5%;
+    width: 510px;
+    height: 772px;
+    margin-top: 115px;
+  }
+  .projects__left-side {
+    width: 50%;
+  }
+  .projects__top-project {
+    width: 100%;
+    position: static;
+  }
+  .projects__average-project {
+    width: 80%;
+    position: static;
+    margin-left: 120px;
+  }
+  .projects__bottom-project {
+    width: 100%;
+    position: static;
+  }
+}
+@media (min-width: 801px) and (max-width: 1154px) {
+  .projects {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+  }
+  .projects__right-side {
+    width: 50%;
+    height: auto;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .projects__right-side>h2 {
+    font-size: 2.5em;
+    line-height: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .projects__right-side>p {
+    font-size: 16px;
+  }
+  .projects__left-side {
+    width: 45%;
+    height: 900px;
+  }
+  .projects__top-project {
+    width: 100%;
+    height: 30%;
+    top: -30px;
+    left: -40px;
+  }
+  .projects__average-project {
+    width: 100%;
+    height: 30%;
+    left: 0px;
+    bottom: 20px;
+  }
+  .projects__bottom-project {
+    width: 100%;
+    height: 30%;
+    left: -25px;
+  }
+  .form {
+    width: 80%;
+    height: auto;
+    margin-top: 20px;
+  }
+  .form__input {
+    width: 300px;
+    height: 60px;
+    align-items: center;
+    margin-top: 0px;
+    font-size: 18px;
+    padding-top: 0px;
+  }
+  .btn-projects {
+    width: 250px;
+    height: 50px;
+    font-size: 0.7em;
+    gap: 52px;
+    padding-top: 15px;
+  }
+  input::-webkit-input-placeholder {
+    font-weight: 500;
+    color: #000;
+  }
+  input::-moz-placeholder {
+    font-weight: 500;
+    color: #000;
+  }
+  input:-ms-input-placeholder {
+    font-weight: 500;
+    color: #000;
+  }
+  input::-ms-input-placeholder {
+    font-weight: 500;
+    color: #000;
+  }
+  input::placeholder {
+    font-weight: 500;
+    color: #000;
+  }
+}
+@media (min-width: 320px) and (max-width: 800px) {
+  .projects {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+  }
+  .projects__right-side {
+    width: 100%;
+    height: auto;
+    display: -ms-grid;
+    display: grid;
+    text-align: center;
+    place-items: center;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .projects__right-side>span {
+    margin-top: 20px;
+  }
+  .projects__right-side>h2 {
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .projects__right-side>p {
+    line-height: 112%;
+    font-size: 16px;
+  }
+  .projects__left-side {
+    display: none;
+  }
+  .projects__button {
+    width: 250px;
+    height: 50px;
+    font-size: 0.7em;
+    gap: 45px;
+    padding-top: 15px;
+  }
+  .form {
+    width: auto;
+    height: auto;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .form__input {
+    width: 240px;
+    height: 50px;
+    align-items: center;
+    margin-top: 0px;
+    font-size: 16px;
+    padding-top: 0px;
+    padding-left: 25px;
+  }
+  input::-webkit-input-placeholder {
+    font-weight: 500;
+    color: #000;
+  }
+  input::-moz-placeholder {
+    font-weight: 500;
+    color: #000;
+  }
+  input:-ms-input-placeholder {
+    font-weight: 500;
+    color: #000;
+  }
+  input::-ms-input-placeholder {
+    font-weight: 500;
+    color: #000;
+  }
+  input::placeholder {
+    font-weight: 500;
+    color: #000;
+  }
+}
