@@ -1,0 +1,70 @@
+@import "../fonts/fonts.css"
+
+font-C(font='Century-Gothic',size=14px)
+    font-family:font
+    font-size:size
+
+.main
+   width 1440px
+   height: 755px
+   background: url('../img/main/background__main.png')
+   background-size:cover
+   padding-top: 48px
+   
+   &__section
+        width 625px
+        height: 380px
+        margin-top: 81px
+        color: #fcfcfc
+        font-family: 'Montserrat'
+        font-size:26px 
+        font-weight: 100
+        margin-left: 225px
+   
+        &>h1
+            margin-top:0px
+            margin-bottom:0px 
+            line-height: 100%
+            font-C(,75px) 
+            font-weight:900
+        &>p
+            margin-top:60px
+            margin-bottom:0px
+
+
+    &__button-applications
+        width 400px
+        height: 77px
+        background: white
+        color black
+        border: white 
+        font-size 26px
+        font-family: 'Montserrat-Medium'
+        font-weight: 600
+        margin: 77px 0px 0px 225px
+        padding: 0px 7px 0px 0px
+        border-radius: 10px 
+        
+        &:hover
+            background: rgb(0, 0, 0)
+            color:rgb(255,255,255)
+
+.heart
+    width 318px
+    height: 269px 
+    background: url("../img/main/сердце.png");
+    background-size: 100% 100% 
+    position: relative
+    bottom 543px
+    left: 969px
+    cursor: pointer
+    font-size: 23px
+    font-family: 'Montserrat-Regular'
+    padding-top:50px 
+#clickCounter 
+      color: rgb(255, 255, 255);
+      border: none;
+      border-radius: 8px;
+      font-size: 24px;
+      margin-top:5px 
+      margin-left: 96px;
