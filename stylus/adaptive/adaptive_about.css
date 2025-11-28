@@ -168,7 +168,7 @@
   }
   .about__content>p {
     font-size: 13px;
-    min-height: 300px;
+    min-height: 50px;
     line-height: 1.4;
   }
   .about__footer {
