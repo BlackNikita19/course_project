@@ -162,14 +162,6 @@
   -webkit-animation-delay: 10s;
           animation-delay: 10s;
 }
-.Rectangle > img:nth-child(4) {
-  -webkit-animation-delay: 15s;
-          animation-delay: 15s;
-}
-.Rectangle > img:nth-child(4) {
-  -webkit-animation-delay: 20s;
-          animation-delay: 20s;
-}
 @-webkit-keyframes RectangleFade {
   0% {
     opacity: 0;
