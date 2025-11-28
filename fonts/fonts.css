@@ -17,11 +17,6 @@
   font-display: swap;
 }
 @font-face {
-  font-family: 'Montserrat-Medium';
-  src: url("Montserrat/Montserrat-Medium.woff") format(woff);
-  font-display: swap;
-}
-@font-face {
   font-family: 'Montserrat-Regular';
   src: url("Montserrat/Montserrat-Regular.ttf") format(woff);
   src: url("Montserrat/Montserrat-Regular.woff") format(woff);
