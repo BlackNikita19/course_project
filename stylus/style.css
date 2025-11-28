@@ -1,0 +1,9 @@
+@import "header.css";
+@import "main.css";
+@import "../fonts/fonts.css";
+@import "about.css";
+@import "projects.css";
+@import "services.css";
+@import "clients.css";
+@import "footer.css";
+@import "adaptive/adaptive_all.css";
