@@ -1,0 +1,207 @@
+@import "../clients.css"
+@media (min-width 1441px) and (max-width 1920px)
+    .clients
+        width auto
+        margin-top:50px 
+        &__heading
+            width 100%
+            margin: 0px
+        &__content
+            width 100%
+            height: auto
+            margin: 0px
+            margin-top:50px 
+            justify-content: center
+        &__basement
+            width 100%
+@media (min-width 1155px) and (max-width 1439px)
+    .clients
+        width 100%
+        height: auto
+        &__heading
+            width 100%
+            height: 100px
+            display grid
+            justify-content: center
+            margin 32px 0px 40px 0px
+            font-size: 1.5em
+            &>h2
+                font-size 2.5em
+                margin: 0px
+        &__content
+            width 100%
+            height: auto
+            justify-content: center
+            margin 60px 0px 0px 0px
+            &>div
+                width 300px
+                height: 180px
+                background-size: 135% 135% 
+            grid-template-columns: repeat(3,auto)
+            grid-template-rows: repeat(3,auto)
+
+        &__basement
+            width 100%
+            margin-top 51px
+            width 100%
+
+@media (min-width 801px) and (max-width 1154px)
+    .clients
+        width 100%
+        height: auto
+        &__heading
+            width 100%
+            height: 100px
+            display grid
+            justify-content: center
+            margin 32px 0px 40px 0px
+            font-size: 1.5em
+            &>h2
+                font-size 2em
+                margin: 0px
+        &__content
+            width 100%
+            height: auto
+            gap 30px
+            justify-content: center
+            margin 30px 0px 0px 0px
+            
+            grid-template-columns: repeat(3,auto)
+            grid-template-rows: repeat(3,auto)
+            &>div
+                width 240px
+                height: 160px
+                box-shadow: none
+                background-size:120% 125%
+
+        &__basement
+            margin-top 63px
+            height: 60px
+            width 100%
+        
+
+    
+@media (min-width 665px) and (max-width 800px)
+    .clients
+        width 100%
+        height: auto
+        &__heading
+            width 100%
+            height: 100px
+            display grid
+            justify-content: center
+            margin 32px 0px 40px 0px
+            font-size: 1.5em
+            &>h2
+                font-size 2em
+                margin: 0px
+        &__content
+            width 100%
+            height: auto
+            column-gap:5%
+            row-gap: 40px
+            justify-content: center
+            margin 50px 0px 0px 0px
+            grid-template-columns: repeat(2,1fr)
+            grid-template-rows: repeat(3,auto)
+            &>div
+                width 80%
+                height: 180px
+                background-size: 120% 130%
+                border-radius: 30px
+        
+        &__tyres
+            justify-self: center 
+       
+        &__huawel
+           justify-self: center 
+        
+        &__PlayStation
+            justify-self: center 
+        
+        &__renault
+            justify-self: center 
+       
+        &__sumsung
+            justify-self: center 
+       
+        &__jacobs
+            justify-self: center 
+            
+     
+        &__hp
+            display: none
+            justify-self: center 
+        &__volvo
+            display: none
+        &__pantovigar
+            display: none
+
+        &__basement
+            margin-top 51px
+            height: 55px
+            width 100%
+
+@media (max-width 664px)
+    .clients
+        width 100%
+        height: auto
+        &__heading
+            width 100%
+            height: 100px
+            display grid
+            justify-content: center
+            margin 32px 0px 40px 0px
+            font-size: 1.5em
+            &>h2
+                font-size 1.5em
+                margin: 0px
+        
+        &__content
+                width 100%
+                height: auto
+                column-gap:20px
+                row-gap: 2%
+                justify-content: center
+                margin 50px 0px 0px 0px
+                grid-template-columns: repeat(1,1fr)
+                grid-template-rows: repeat(4,auto)
+                &>div
+                    width 50%
+                    height: 160px
+                    background-size cover 
+                    border-radius: 30px 30px
+        
+       
+        &__huawel
+           justify-self: center 
+           box-shadow: 0px 0px 0px
+       
+        &__sumsung
+            justify-self: center 
+       
+        &__jacobs
+            justify-self: center 
+        
+        &__PlayStation
+            justify-self: center 
+    
+         &__tyres
+            display: none
+
+        &__volvo
+            display: none
+        
+        &__pantovigar
+            display: none
+        
+        &__hp
+            display: none
+        
+        &__renault
+            display: none
+        
+        &__basement
+            margin-top 51px
+            width 100%
+            height: 55px
