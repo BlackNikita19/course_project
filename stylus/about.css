@@ -42,7 +42,6 @@
   width: 1200px;
   height: 595px;
   min-height: 400px; /* резервируем место под контент */
-  aspect-ratio: 16/9; /* задаём пропорции секции */
   display: flex;
   flex-wrap: wrap;
   gap: 75px;
