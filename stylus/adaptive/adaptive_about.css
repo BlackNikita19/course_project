@@ -107,7 +107,6 @@
   .about__content {
     width: 100%;
     height: auto;
-    min-height: 300px;
     margin: 0px;
   }
   .about__content>h2 {
@@ -117,7 +116,6 @@
   }
   .about__content>p {
     font-size: 0.7em;
-    line-height: 1.4;
   }
   .about__footer {
     width: 100%;
@@ -170,7 +168,8 @@
   }
   .about__content>p {
     font-size: 13px;
-    line-height: 120%;
+    min-height: 300px;
+    line-height: 1.4;
   }
   .about__footer {
     width: 100%;
