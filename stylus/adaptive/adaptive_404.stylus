@@ -1,0 +1,55 @@
+@import "../404.css";
+@media (min-width: 1441px) and (max-width: 1920px) 
+    .block
+        width 100%
+        height: 100%
+
+        &__mistake
+            width auto
+            margin-left:  200px
+
+        &__text
+            width auto
+            margin: 0px
+            margin-left:  250px
+            margin-top:200px 
+            
+@media (min-width 1155px) and (max-width 1439px)
+    .block
+        width 100%
+        height: 100%
+        &__mistake
+            width auto
+            padding-left:120px 
+            margin-left:  0px
+        &__text
+            width auto
+            margin-left:  0px
+            padding-left:120px 
+
+
+@media (min-width 801px) and (max-width 1154px)
+    .block
+        width 100%
+        height: 100%
+        &__mistake
+            width 100%
+            
+            margin: 0px
+        &__text
+            margin-top 35px
+
+@media (min-width 320px) and (max-width 800px)
+    .block
+        width 100%
+        height: 100%
+        &__mistake
+            width auto
+            font-size:11em
+            margin-left: 0px
+            padding-left:10% 
+            
+        &__text
+            margin-top: 0px
+            margin-left: 5%
+            font-size: 1.2em
