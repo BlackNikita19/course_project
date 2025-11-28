@@ -9,8 +9,7 @@
   <link rel="stylesheet" href="stylus/style.css">
   <link rel="stylesheet" href="fonts/fonts.css">
   <link rel="preload" href="stylus/adaptive/adaptive_all.css" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="stylus/adaptive/adaptive_all.css"></noscript>
-  <link rel="icon" href="svgicons/logo/fox.webp" type="image/png" sizes="48x48">
+  <link rel="icon" href="svgicons/logo/fox.webp" type="image/wepb" sizes="48x48">
   <link rel="preload" as="image" href="img/main/background__main.png" fetchpriority="high">
   <script src="js/heart.js" defer></script>
    
@@ -141,7 +140,7 @@
           </p>
           <form class="form">
             <input type="text" class="form__input" placeholder="Имя" maxlength="15" minlength="2" required >
-            <input type="tel" class="form__input" maxlength="13" minlength="13" required placeholder="Телефон">
+            <input type="tel" class="form__input" pattern="^\+?[0-9\s\-\(\)]{7,20}$" required placeholder="Телефон">
           <button type="submit" class="projects__button" onclick="window.location.href='https://blacknikita19.github.io/404/'">Получить аудит<img src="svgicons/Subtract.png" alt="arrow"></button>
           </form>
           </div>
@@ -269,7 +268,7 @@
             <form class="footer__form">
               <input class="footer__input" type="text" placeholder="Ваше имя" maxlength="15" minlength="2"  required>
               <hr>
-              <input class="footer__input" type="text" placeholder="Телефон" maxlength="13" minlength="13" pattern="[0-9+]*" inputmode="numeric" required>
+              <input class="footer__input" type="tel" placeholder="Телефон" pattern="^\+?[0-9\s\-\(\)]{7,20}$" inputmode="numeric" required>
               <button type="submit" class="footer__button" onclick="window.location.href='https://blacknikita19.github.io/404/'" ><span>Получить аудит</span><img src="svgicons/Subtract.png" alt="arrow"></button>
             </form>
             <div class="footer__logo">
@@ -279,6 +278,7 @@
             </body>
 
     </html>
+
 
 
 
