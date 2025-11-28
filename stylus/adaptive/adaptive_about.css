@@ -155,6 +155,7 @@
     justify-content: center;
   }
   .about__content {
+    width: 100%;
     height: auto;
     margin: 0px;
     text-align: center;
